@@ -1,0 +1,151 @@
+/*FONTS*/
+@font-face {
+ font-family: 'SansLight';
+ src: url('../fonts/Sans/SourceSansPro-Light.ttf') format('opentype');
+}
+@font-face {
+ font-family: 'SansRegular';
+ src: url('../fonts/Sans/SourceSansPro-Regular.ttf') format('opentype');
+}
+@font-face {
+ font-family: 'SansSemibold';
+ src: url('../fonts/Sans/SourceSansPro-Semibold.ttf') format('opentype');
+}
+@font-face {
+ font-family: 'SansItalic';
+ src: url('../fonts/Sans/SourceSansPro-Italic.ttf') format('opentype');
+}
+
+.left-aligned {
+	text-align: left!important;
+}
+
+h1 {
+	color: black;
+	font-family: 'SansLight';
+	font-size: 27px;
+}
+
+h2 {
+	color: black;
+	font-family: 'SansSemibold';
+	font-size: 16px;
+}
+
+h3 {
+	color: black;
+	font-family: 'SansLight';
+	font-size: 23px;
+}
+p {
+	color: black;
+	font-family: 'SansRegular';
+	font-size: 15px;
+}
+
+.how-img {
+	text-align: center;
+  width: 90%;
+}
+
+.how-section {
+	text-align: center;
+  padding: 60px 0;
+}
+
+.info-section {
+	background-color: #CFDEEF;
+	text-align: center;
+  padding: 60px 0;
+}
+.info-section img, .foros-img {
+ 	width: 100%;
+}
+
+.foros-img {
+ 	width: 80%;
+ 	text-align: center;
+}
+
+.footer{
+  background-color: #1C3A5C;
+	text-align: center;
+  padding: 60px 0;
+}
+
+
+.line {
+  width: 60px;
+  display: block;
+  border-top: 1px solid #000;
+  vertical-align: top;
+}
+
+.center-line {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 80px;
+}
+
+.center-line-no-bottom {
+  text-align: center;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.left-line {
+  margin-bottom: 65px;
+}
+.dark-grey-title {
+	color: #333131!important;
+}
+.grey-p {
+	color: #919191!important;
+}
+.footer-title{
+	color: white!important;
+}
+.white {
+	color: white!important;
+}
+/*------------------------------------------------------------*/
+.landing-search {
+	width: calc(100% - 245px);
+	margin-right: 10px;
+}
+.principal-title {
+	font-family: 'SansLight';
+  font-size: 31px;
+}
+.whitebox {
+	background-color: rgba(255, 255, 255, 0.67);
+  padding: 30px;
+  border-radius: 10px;
+}
+.title-to-p {
+	font-family: 'SansSemibold';
+	color: #333131;
+	font-size: 18px;
+}
+
+.inline-flex {
+	display: inline-flex;
+}
+
+.rate-star {
+	float: right;
+  margin-top: 10px;
+}
+
+.title-container h2 {
+  margin: 0;
+  color: #454545;
+  font-size: 23px;
+  font-family: 'SansRegular';
+}
+
+.autoplay img {
+	width: 150px!important;
+	height: 150px!important;
+	margin: auto;
+}
