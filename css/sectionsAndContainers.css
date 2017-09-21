@@ -137,7 +137,7 @@ body {
     border-bottom: 0px solid transparent!important;
 }
 .modal-content {
-  background-image: url('../images/logBackground.png');
+  background: rgba(113, 176, 245, 0.83);
 }
 .modal-body {
   height: 390px;
@@ -207,7 +207,7 @@ body {
   border-radius: 0px!important;
 }
 .userTypeButtonActive{
-  background-color: #4CA29D;
+  background-color: #71B0F5;
   border: solid white;
   color: white!important;
   font-size: 18px;
@@ -217,7 +217,7 @@ body {
   border-radius: 0px!important;
 }
 .userTypeButton:hover{
-  background-color: #74D2CC;;
+  background-color: transparent;;
   border: solid white;
   color: white;
   font-size: 18px;
@@ -226,7 +226,7 @@ body {
   outline: none;
 }
 .userTypeButtonActive:hover{
-  background-color: #4CA29D;
+  background-color: #71B0F5;
   border: solid white;
   color: white!important;
   font-size: 18px;
@@ -236,7 +236,7 @@ body {
   border-radius: 0px!important;
 }
 .loginSendButton:hover{
-  background-color: #74D2CC;;
+  background-color: transparent;
   border: solid white;
   color: white;
   font-size: 18px;
@@ -245,7 +245,7 @@ body {
   outline: none;
 }
 .loginSendButton:focus{
-  background-color: #74D2CC;;
+  background-color: transparent;
   border: solid white;
   color: white;
   font-size: 18px;
