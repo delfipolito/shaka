@@ -1,0 +1,36 @@
+/*MEDIA SIZE*/
+
+@media (max-width: 768px) { /*Para monitores xs*/
+	.principal-title { font-size: 20px!important; }
+	.landing-search { width: calc(100%)!important; margin-right: 0px; }
+	.principal-section-box { display: block!important;padding: 0px!important; text-align: center; margin: auto;}
+	.whitebox { padding: 30px 10px!important; }
+	.rankingButton { margin-top: 10px; }
+	.redes-div { border-right: solid 0px white!important; }
+}
+@media (min-width: 768px) and (max-width: 992px) { /*Para monitores sm*/
+	.redes-div { border-right: solid 0px white!important; }
+}
+@media (min-width: 993px) and (max-width: 1200px){ /*Para monitores md*/
+}
+@media (min-width: 1200px) { /*Para monitores extra large*/
+}
+
+
+/* portrait */
+@media screen and (max-width: 600px) and (orientation:portrait) { /*para celulares vertical*/
+}
+/* landscape */
+@media screen and (max-width: 600px) and (orientation:landscape) {  /*para celulares horizontal*/
+}
+
+@media screen and (max-width: 991px) and (orientation:landscape){
+}
+
+@media (min-width: 1200px){
+}
+@media (min-width: 350px) and (max-width: 767px) { /*Para iphone 6*/
+
+}
+@media (max-width: 350px) { /*Para iphone 5*/
+}

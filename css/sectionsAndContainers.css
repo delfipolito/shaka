@@ -20,6 +20,7 @@
  src: url('../fonts/Sans/SourceSansPro-LightItalic.ttf') format('opentype');
 }
 
+/*GENERAL*/
 html, body{
 	height: 100%;
   -webkit-font-smoothing: antialiased; 
@@ -432,6 +433,7 @@ body {
   display: inline-block;
   width: 100%;
   margin-bottom: 20px;
+  box-shadow: 0px 0 1px 0px #8c8c8c;
 }
 .disclaimer{
   background-color: #F7F7F7;
@@ -451,14 +453,6 @@ body {
   line-height: 21px;
   color: #646464;
 }
-/*.commentsContainer{
-  margin-top: 39px;
-  height: 90%;
-  overflow: scroll;
-  padding-bottom: 70px;
-  position: absolute;
-  width: 100%;
-}*/
 .comment-photo-div{
   padding: 0 5px;
 }
@@ -473,10 +467,6 @@ body {
   padding-left: 0px;
   padding-right: 0px;
 }
-/*.repliesComments{
-  border-top: solid 1px #ccc;
-  margin: 0 10px
-}*/
 
 .myCommentContainer{
   padding: 0px;
@@ -558,7 +548,8 @@ body {
   background-color: #F7F7F7;
   margin: 0;
   padding: 15px 0;
-  border-top: solid 3px #EFEFF1;
+  /*border-top: solid 3px #EFEFF1;*/
+  box-shadow: 0px 0 1px 0px #8c8c8c;
 }
 .send-reply {
   height: 33px;

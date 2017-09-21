@@ -75,6 +75,7 @@ module.exports = React.createClass({
       <section className="info-section">
         <div className="row" style={{marginBottom: '30px'}}>
           <h3>Consultoras asociadas</h3>
+          <span className="line center-line-no-bottom"></span>
         </div>
         <div className="row">
           <div className="autoplay col-xs-8 col-xs-offset-2" >
@@ -117,12 +118,12 @@ module.exports = React.createClass({
             <h3 className="footer-title">Contactanos</h3>
             <br/>
           </div>
-          <div className="col-xs-3 left-aligned">
+          <div className="col-xs-12 col-md-3 left-aligned">
             <p className="white">(011) 4503 3942</p>
             <p><a className="white" href="mailto:shakacorp@shaka.com.ar">shakacorp@shaka.com.ar</a></p>
             <p><a className="white" href="mailto:shakacorp@shaka.com.ar">shakacorp@shaka.com.ar</a></p>
           </div>
-          <div className="col-xs-3 left-aligned redes-div">
+          <div className="col-xs-12 col-md-3 left-aligned redes-div">
             <a className="footer-a" href="http://www.facebook.com" target="_blank">
              <div className="footer-icon footer-facebook"></div>
             </a>
@@ -135,12 +136,12 @@ module.exports = React.createClass({
             </a>
             
           </div>
-          <div className="col-xs-3 left-aligned">
+          <div className="col-xs-12 col-md-3 left-aligned">
             <p><a className="white">Inicio</a></p>
             <p><a className="white">Ranking de consultoras</a></p>
             <p><a className="white">Foros</a></p>
           </div>
-          <div className="col-xs-3 left-aligned">
+          <div className="col-xs-12 col-md-3 left-aligned">
             <br/>
             <br/>
             <br/>
